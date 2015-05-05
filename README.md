@@ -1,5 +1,7 @@
 ##fly_offer
     a website for helping real programmer get better offer
+    ![preview1](images/preview1)
+    ![preview2](images/preview2)
 
 1. archive
     1. a simple search engine
