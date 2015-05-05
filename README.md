@@ -1,7 +1,7 @@
 ##fly_offer
     a website for helping real programmer get better offer
-    ![preview1](images/preview1)
-    ![preview2](images/preview2)
+    ![preview1](https://raw.githubusercontent.com/AssassinPig/flying_offer/master/images/preview1.png)
+    ![preview2](https://raw.githubusercontent.com/AssassinPig/flying_offer/master/images/preview2.png)
 
 1. archive
     1. a simple search engine
@@ -30,6 +30,7 @@
             python crawler_task
         ```
         or you can write custom spider
+        br
         a better distribution crawler for your reference which is also written by me-- [viper-py](https://github.com/AssassinPig/viper-py.git)
         the page data will put in directionary data you mkdir just now 
 
@@ -38,6 +39,7 @@
             python index_build.py
         ```
         the cleaned data will exculded all html tags and then will be put in directionary cleaned_data
+        br
         It is a better way to parse page for extracting clean data and build index in the same step 
 
     4. query service
