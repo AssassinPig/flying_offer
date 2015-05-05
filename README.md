@@ -1,7 +1,8 @@
 ##fly_offer
     a website for helping real programmer get better offer
-    ![preview1](https://raw.githubusercontent.com/AssassinPig/flying_offer/master/images/preview1.png)
-    ![preview2](https://raw.githubusercontent.com/AssassinPig/flying_offer/master/images/preview2.png)
+
+![preview1](https://raw.githubusercontent.com/AssassinPig/flying_offer/master/images/preview1.png)
+![preview2](https://raw.githubusercontent.com/AssassinPig/flying_offer/master/images/preview2.png)
 
 1. archive
     1. a simple search engine
