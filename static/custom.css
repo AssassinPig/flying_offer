@@ -1,0 +1,77 @@
+.main{
+    width: 100%;
+}
+
+.middle {
+    width: 50%;
+    margin:  240px auto; 
+}
+
+.middle h1{
+    margin:  10px auto;
+    color:  #6f5499;
+    text-align: center;
+    font-size:  150px;
+}
+
+.section {
+    margin: 28px 0px 0px 0px;
+    margin-top: 50px;
+    border:  solid 1px #6f5499;
+}
+
+.content {
+    margin: 40px 250px ;
+    //width: 100%;
+    height:  1200px;
+}
+
+
+.header {
+    height:  120px;
+    border:  solid 1px #dfdfdf;
+}
+
+.header h2 {
+    margin-top: 50px;
+    width: 300px;
+    color: #6f5499;
+    text-align: center;
+    display: inline-block;  
+    float: left;
+}
+
+.header .search_dlg {
+    width: 40%;
+    float: left;
+}
+
+
+.search_dlg {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.search_dlg  input[type=text]{
+    display: block;
+    width: 80%;
+    height: 28px;
+    outline: 0;
+    float: left;
+    border: solid 2px #6f5499;
+    font-size: 28px;
+    text-indent:  20px;
+    text-align: center;
+}
+
+.search_dlg  input[type=submit]{
+    width: 19%;
+    float: left;
+    border: solid 1px  #6f5499;
+    display: block;
+    color: #f7f7f7;
+    background-color:  #6f5499;
+    text-align: center;
+    height: 34px;
+    cursor: pointer;
+}

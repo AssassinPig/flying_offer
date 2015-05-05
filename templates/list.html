@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="{{url_for('static', filename='global.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='custom.css')}}">
+		<script language="javascript" src="{{url_for('static', filename='jquery.min.js')}}"></script>
+		<script language="javascript" src="{{url_for('static', filename='custom.js')}}"></script>
+</head>
+<body>
+		<div class="main">
+			<div class="header">
+				<h2>Flying Offer</h2>
+				<form action="." method='post'>
+					<div class="search_dlg">
+						<input type="text" name="q" ></input>
+						<input type="submit" value="search"></input>
+					</div>
+				</form>	
+			</div>
+			<div class="content">
+				{% for job in job_list%}
+				<div class="section">
+					<p>
+						{{  job }}
+					</p>
+				</div>
+				{% endfor%}
+			</div>
+		</div>		
+</body>
+</html>
